@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "esModuleInterop": true,
     "rootDir": "src",                              /* List of root folders whose combined content represents the structure of the project at runtime. */
     "baseUrl": "src",                             /* Base directory to resolve non-absolute module names. */
     "paths": {
