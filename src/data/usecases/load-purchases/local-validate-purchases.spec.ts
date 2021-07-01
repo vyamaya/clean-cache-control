@@ -1,5 +1,5 @@
 import { LocalLoadPurchases } from '@/data/usecases'
-import { mockPurchases, CacheStoreSpy, getCacheExpirationDate } from '@/data/tests'
+import { CacheStoreSpy } from '@/data/tests'
  
 
 type SutTypes = {
@@ -23,3 +23,4 @@ describe('LocalLoadPurchase', () => {
   })
 
 })
+ 
