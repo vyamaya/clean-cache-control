@@ -38,7 +38,7 @@ describe('LocalLoadPurchase', () => {
     cacheStore.fetchResult = { timestamp }
     sut.validate()
     expect(cacheStore.actions).toEqual([CacheStoreSpy.Action.fetch]) 
-    expect(cacheStore.fetchKey).toBe('purchases')
+    expect(cacheStore.fetchKey).toBe('purchases') 
   })
 
 })
